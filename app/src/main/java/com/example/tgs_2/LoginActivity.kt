@@ -39,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         // Event click untuk "Register"
-        binding.tvRegister.setOnClickListener {
+        binding.tvDaftar.setOnClickListener {
             val intentRegister = Intent(this, RegisterActivity::class.java)
             startActivity(intentRegister)
         }

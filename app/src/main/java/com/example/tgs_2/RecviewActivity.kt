@@ -29,6 +29,12 @@ class RecviewActivity : AppCompatActivity() {
         listMakanan.add(ItemData(R.drawable.babi, "Babi Guling", "Bali"))
         listMakanan.add(ItemData(R.drawable.pempek, "Pempek", "Sumatra Selatan"))
         listMakanan.add(ItemData(R.drawable.coto, "Coto Makassar", "Sulawesi Selatan"))
+        listMakanan.add(ItemData(R.drawable.rendang, "Rendang", "Sumatra Barat"))
+        listMakanan.add(ItemData(R.drawable.papeda, "Papeda", "Papua"))
+        listMakanan.add(ItemData(R.drawable.babi, "Babi Guling", "Bali"))
+        listMakanan.add(ItemData(R.drawable.pempek, "Pempek", "Sumatra Selatan"))
+        listMakanan.add(ItemData(R.drawable.coto, "Coto Makassar", "Sulawesi Selatan"))
+
 
         // Debugging log untuk memastikan data telah dimasukkan
         Log.d("RecviewActivity", "Jumlah item di listMakanan: ${listMakanan.size}")

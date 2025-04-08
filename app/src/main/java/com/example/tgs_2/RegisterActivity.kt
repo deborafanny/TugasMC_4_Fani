@@ -69,7 +69,7 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         // Event klik untuk "Sudah punya akun? Login"
-        binding.txtRegister.setOnClickListener {
+        binding.txtLogin.setOnClickListener {
             val intentLogin = Intent(this, LoginActivity::class.java)
             startActivity(intentLogin)
             finish()
